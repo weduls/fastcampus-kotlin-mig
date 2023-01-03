@@ -43,7 +43,7 @@ dependencies {
 // 코틀린 컴파일러에 대한 설명
 tasks.withType<KotlinCompile> {
     kotlinOptions {
-        freeCompilerArgs = listOf("-xjsr305=strict")
+        freeCompilerArgs = listOf("-Xjsr305=strict")
         jvmTarget = "11"
     }
 }
