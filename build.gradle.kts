@@ -38,6 +38,9 @@ dependencies {
 
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    // mock처리용 라이브러리
+    testImplementation("com.ninja-squad:springmockk:3.1.1")
 }
 
 // 코틀린 컴파일러에 대한 설명
